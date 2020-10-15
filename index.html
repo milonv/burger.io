@@ -7,14 +7,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="burger-menu">
-        <div class="wrapper">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+
+    <div class="container">
+        <div class="burger-menu">
+            <div class="wrapper">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </div>
-    </div>
-    
+        <div class="flipper">
+          <div class="front"></div>
+          <div class="back">
+            <video id="myVideo" loop="loop">
+                <source src="./media/video.mp4" type="video/mp4"></source>
+                <source src="./media/video.mp4" type="video/mp4"></source>
+            </video>
+          </div>
+      </div>
+    </div>  
     <script src="script.js"></script>
 </body>
 </html>
