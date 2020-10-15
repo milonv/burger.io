@@ -6,7 +6,6 @@
 body {
     margin: 0;
     background-color: #ADD8E6;
-    border: 20px solid #fff;
     height: 100vh;
 }
 
@@ -36,8 +35,8 @@ body {
     height: 80px;
     width: 80px;
     position: absolute;
-    right: 20px;
-    top: 20px;
+    right: 0;
+    top: 0;
     overflow: visible;
     display: flex;
     justify-content: center;
