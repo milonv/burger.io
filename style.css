@@ -7,6 +7,7 @@ body {
     margin: 0;
     background-color: #ADD8E6;
     border: 20px solid #fff;
+    height: 100vh;
 }
 
 body.active {
@@ -16,10 +17,6 @@ body.active {
     -moz-transition: background-color 0.8s 0.1s ease;
     -o-transition: background-color 0.8s 0.1s ease;
     -webkit-transition: background-color 0.8s 0.1s ease;
-}
-
-.page {
-    height: 100vh;
 }
 
 .burger-menu {
